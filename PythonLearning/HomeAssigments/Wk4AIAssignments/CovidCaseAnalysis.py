@@ -16,7 +16,7 @@ class CovidData:
             raise FileNotFoundError(f"CSV file not found: {file_path}")
 
         self.df = pd.read_csv(file_path)
-        print(f"✅ Data loaded successfully! Shape: {self.df.shape}")
+        print(f"Data loaded successfully! Shape: {self.df.shape}")
 
 
 # --------------------------------
