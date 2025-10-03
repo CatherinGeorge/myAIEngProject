@@ -135,8 +135,7 @@ if __name__ == "__main__":
     viz = CovidVisualization(
         r"C:\Users\CATHERIN\Desktop\Aut_Project\AI Engineer Test Leaf\myAIEngProject\PythonLearning\HomeAssigments\Wk4AIAssignments\country_wise_latest.csv"
     )
-
-    # Example usage (run one by one)
+ #Execution (run one by one)
     viz.plot_top10_countries()
     viz.plot_death_distribution()
     viz.plot_top5_confirmed_vs_deaths()
