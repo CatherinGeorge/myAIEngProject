@@ -1,0 +1,6 @@
+TestcaseID,Status,Duration
+TC1,Pass,12
+TC2,Fail,15
+TC3,Fail,20
+TC4,Pass,18
+TC5,Pass,25
